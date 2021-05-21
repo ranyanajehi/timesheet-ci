@@ -20,6 +20,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Contrat implements Serializable {
 	
 	private static final long serialVersionUID = 6191889143079517027L;
+	
+	// mon modif
 //commentaire
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
